@@ -1,7 +1,7 @@
 'use strict';
 
 const PluginError = require('plugin-error');
-const through = require('through2');
+const { Transform } = require("stream");
 const {formatters, lint} = require('stylelint');
 
 const applySourcemap = require('./apply-sourcemap');
@@ -175,7 +175,14 @@ module.exports = function gulpStylelint(options) {
       });
   }
 
-  return through.obj(onFile, onStreamEnd).resume();
+  const stream = new Transform({
+    objectMode: true,
+    highWaterMark: 16,
+    transform: onFile,
+    flush: onStreamEnd
+  });
+
+  return stream.resume();
 };
 
 /**
