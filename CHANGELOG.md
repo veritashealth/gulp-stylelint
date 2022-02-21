@@ -1,3 +1,7 @@
+### [Unreleased]
+
+* Remove dependency to through2 #3
+
 ### 14.0.5: 2021-11-02
 
 * Update devDependency of stylelint to 14.0.1
