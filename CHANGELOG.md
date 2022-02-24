@@ -1,5 +1,6 @@
-### [Unreleased]
+### 14.0.6: 2022-02-24
 
+* Allow Node 12+ #2
 * Remove dependency to through2 #3
 
 ### 14.0.5: 2021-11-02
