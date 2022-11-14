@@ -1,3 +1,7 @@
+### 14.0.8: 2022-11-14
+
+* Upgrade peerDependencies to stylelint 14.15.0
+
 ### 14.0.7: 2022-11-14
 
 * Remove deprecated tape test
