@@ -1,3 +1,9 @@
+### 14.0.7: 2022-11-14
+
+* Remove deprecated tape test
+* Update stylelint to 14.15.0 (Fixes #5)
+* Add .nvmrc
+
 ### 14.0.6: 2022-02-24
 
 * Allow Node 12+ #2
