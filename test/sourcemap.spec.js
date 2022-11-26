@@ -75,8 +75,6 @@ test('should apply sourcemaps correctly', t => {
     .on('error', () => t.pass('error has been emitted correctly'));
 });
 
-// Remove deprecated test for now
-// TODO: Rebuild this test
 test('should ignore empty sourcemaps', t => {
   t.plan(6);
   gulp

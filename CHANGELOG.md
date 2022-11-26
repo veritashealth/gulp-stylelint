@@ -1,3 +1,9 @@
+### 14.0.9: 2022-11-26
+
+* Update dependencies, replace some #6 (thanks @onigoetz)
+* Update eslint-plugin-jest
+* Add .eslintrc.js
+
 ### 14.0.8: 2022-11-14
 
 * Upgrade peerDependencies to stylelint 14.15.0
