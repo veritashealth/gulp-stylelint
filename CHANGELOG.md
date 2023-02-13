@@ -1,3 +1,7 @@
+### 14.1.0: 2023-02-13
+
+* Update stylelint to 15.1.0, #5 (kudos to @movahhedi for reminding me)
+
 ### 14.0.9: 2022-11-26
 
 * Update dependencies, replace some #6 (thanks @onigoetz)
