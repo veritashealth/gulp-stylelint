@@ -1,3 +1,7 @@
+### 14.1.2rc: 2023-10-22
+
+* Remove unknown build badge
+
 ### 14.1.1: 2023-02-15
 
 * Change to less strict peer dependency of stylelint
