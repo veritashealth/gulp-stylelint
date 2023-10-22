@@ -1,4 +1,4 @@
-### 14.1.2rc: 2023-10-22
+### 14.1.2: 2023-10-22
 
 * Remove unknown build badge
 * Update postcss to 8.4.31
