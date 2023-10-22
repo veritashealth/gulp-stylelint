@@ -1,6 +1,9 @@
 ### 14.1.2rc: 2023-10-22
 
 * Remove unknown build badge
+* Update postcss to 8.4.31
+* Update stylelint to 15.11.0
+* Update stylelint-config-standard to 34.0.0
 
 ### 14.1.1: 2023-02-15
 
