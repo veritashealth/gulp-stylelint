@@ -95,7 +95,7 @@ test('should ignore empty sourcemaps', t => {
             'there are two files'
           );
 
-          // eslint-disable-next-line no-console
+          // -- eslint-disable-next-line no-console
           console.log(lintResult.map(r => ({
             source: r.source,
             warnings: r.warnings[0]
